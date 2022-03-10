@@ -13,7 +13,7 @@ export default function Dog(){
     }, [])
     return(
         <div>
-            <h1>Famous Dog Breeds 🐶</h1>
+            <h1>🐶 Famous Dog Breeds 🐶</h1>
             <ul className="listItem">
             {Object.keys(listofBreeds).map((dogBreed, key) => {
             return(

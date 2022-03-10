@@ -12,8 +12,8 @@ export default function Cat(){
         testingSecondApi()
     }, [])
     return(
-        <div>
-            <h1>Random Cat Photos 😮</h1>
+        <div className="cats">
+            <h1>😮 Random Cat Photos 😮</h1>
            <button onClick={() => testingSecondApi()}>Click me for Random Cat</button>
            <br></br>
            <img className="catPhoto"src={cats.url}/>

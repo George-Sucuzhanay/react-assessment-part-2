@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 export default function Header(){
     return(
         <div className="header">
-            <h1>Practing API Calls with React</h1>
+            <h1>Practicing API Calls with React</h1>
             <nav className="links">
                 <NavLink to="/">
                     <li>Home</li>

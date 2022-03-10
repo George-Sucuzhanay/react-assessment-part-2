@@ -12,14 +12,14 @@ export default function Dog(){
         settingApi()
     }, [])
     return(
-        <div>
+        <ul className="listItem">
             {Object.keys(listofBreeds).map((dogBreed, key) => {
             return(
-                    <h4 key={key}> 
+                    <li className="item" key={key}> 
                         {dogBreed}
-                    </h4>
+                    </li>
             )
             })}
-        </div>
+        </ul>
     )
 }

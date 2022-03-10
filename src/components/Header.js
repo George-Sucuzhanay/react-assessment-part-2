@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom"
 
 export default function Header(){
     return(
-        <header>
+        <div>
             <h1>Welcome to my example of API calls</h1>
-            <ul>
+            <nav className="links">
                 <NavLink to="/">
                     <li>Home</li>
                 </NavLink>
@@ -14,7 +14,7 @@ export default function Header(){
                 <NavLink to="cat">
                     <li>Cat</li>
                 </NavLink>
-            </ul>
-        </header>
+            </nav>
+        </div>
     )
 }

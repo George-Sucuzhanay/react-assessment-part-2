@@ -6,7 +6,6 @@ export default function Cat(){
 
     const testingSecondApi = async() => {
         const gettingCats = await randomCat()
-        console.log(gettingCats.data[0])
         setCat(gettingCats.data[0])
     }
     useEffect(() => {
@@ -14,9 +13,9 @@ export default function Cat(){
     }, [])
     return(
         <div>
-           <button onClick={() => testingSecondApi()}></button>
+           <button onClick={() => testingSecondApi()}>Click me for Random Cat</button>
            <br></br>
-           <img src={cats.url}/>
+           <img className="catPhoto"src={cats.url}/>
         </div>
     )
 }

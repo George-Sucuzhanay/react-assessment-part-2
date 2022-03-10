@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom"
 
 export default function Header(){
     return(
-        <div>
-            <h1>Welcome to my example of API calls</h1>
+        <div className="header">
+            <h1>Practing API Calls with React</h1>
             <nav className="links">
                 <NavLink to="/">
                     <li>Home</li>

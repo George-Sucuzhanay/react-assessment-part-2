@@ -12,7 +12,9 @@ export default function Dog(){
         settingApi()
     }, [])
     return(
-        <ul className="listItem">
+        <div>
+            <h1>Famous Dog Breeds 🐶</h1>
+            <ul className="listItem">
             {Object.keys(listofBreeds).map((dogBreed, key) => {
             return(
                     <li className="item" key={key}> 
@@ -21,5 +23,7 @@ export default function Dog(){
             )
             })}
         </ul>
+        </div>
+        
     )
 }

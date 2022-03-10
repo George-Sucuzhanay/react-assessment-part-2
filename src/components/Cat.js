@@ -13,6 +13,7 @@ export default function Cat(){
     }, [])
     return(
         <div>
+            <h1>Random Cat Photos 😮</h1>
            <button onClick={() => testingSecondApi()}>Click me for Random Cat</button>
            <br></br>
            <img className="catPhoto"src={cats.url}/>

@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.header {
+  background-color: chocolate;
+}
 .links {
   display: flex;
   justify-content: space-around;
